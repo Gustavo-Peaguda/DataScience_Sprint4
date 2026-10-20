@@ -1,0 +1,13 @@
+# Python 3.11+ (testado com 3.13). Versões fixas = ambiente em que o pipeline e o notebook foram EXECUTADOS.
+scikit-learn==1.9.1
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+joblib==1.6.0
+matplotlib==3.11.2
+seaborn==0.13.2
+# Protótipo e notebook: NÃO foi possível instalá-los/testá-los no ambiente de preparo (PyPI bloqueado).
+streamlit>=1.30,<2
+ipykernel>=6.29
+nbconvert>=7.16
+# Opcional (nuvem de palavras na Seção 4): wordcloud
